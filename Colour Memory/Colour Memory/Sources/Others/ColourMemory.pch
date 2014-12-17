@@ -1,0 +1,18 @@
+//
+//  ColourMemory.pch
+//  Colour Memory
+//
+//  Created by Eric E. van Leeuwen on 12/16/14.
+//  Copyright (c) 2014 Eric E. van Leeuwen. All rights reserved.
+//
+
+#ifndef Colour_Memory_ColourMemory_pch
+#define Colour_Memory_ColourMemory_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
+
+#endif

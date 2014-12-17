@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		550FCF881A3A8BB7005115E1 /* Colour_Memory.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 550FCF791A3A8BB7005115E1 /* Colour_Memory.xcdatamodeld */; };
+		550FCF891A3A8BB7005115E1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 550FCF7B1A3A8BB7005115E1 /* Images.xcassets */; };
+		550FCF8B1A3A8BB7005115E1 /* GameBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 550FCF801A3A8BB7005115E1 /* GameBoardViewController.m */; };
+		550FCF8C1A3A8BB7005115E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 550FCF831A3A8BB7005115E1 /* AppDelegate.m */; };
+		550FCF8D1A3A8BB7005115E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 550FCF851A3A8BB7005115E1 /* main.m */; };
+		550FCF8F1A3A8C12005115E1 /* Main~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 550FCF8E1A3A8C12005115E1 /* Main~iphone.xib */; };
+		550FCF9D1A3A8D96005115E1 /* card_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 550FCF911A3A8D96005115E1 /* card_bg.png */; };
+		550FCF9E1A3A8D96005115E1 /* colour1.png in Resources */ = {isa = PBXBuildFile; fileRef = 550FCF921A3A8D96005115E1 /* colour1.png */; };
+		550FCF9F1A3A8D96005115E1 /* colour2.png in Resources */ = {isa = PBXBuildFile; fileRef = 550FCF931A3A8D96005115E1 /* colour2.png */; };
+		550FCFA01A3A8D96005115E1 /* colour3.png in Resources */ = {isa = PBXBuildFile; fileRef = 550FCF941A3A8D96005115E1 /* colour3.png */; };
+		550FCFA11A3A8D96005115E1 /* colour4.png in Resources */ = {isa = PBXBuildFile; fileRef = 550FCF951A3A8D96005115E1 /* colour4.png */; };
+		550FCFA21A3A8D96005115E1 /* colour5.png in Resources */ = {isa = PBXBuildFile; fileRef = 550FCF961A3A8D96005115E1 /* colour5.png */; };
+		550FCFA31A3A8D96005115E1 /* colour6.png in Resources */ = {isa = PBXBuildFile; fileRef = 550FCF971A3A8D96005115E1 /* colour6.png */; };
+		550FCFA41A3A8D96005115E1 /* colour7.png in Resources */ = {isa = PBXBuildFile; fileRef = 550FCF981A3A8D96005115E1 /* colour7.png */; };
+		550FCFA51A3A8D96005115E1 /* colour8.png in Resources */ = {isa = PBXBuildFile; fileRef = 550FCF991A3A8D96005115E1 /* colour8.png */; };
+		550FCFA61A3A8D96005115E1 /* icon_57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 550FCF9A1A3A8D96005115E1 /* icon_57x57.png */; };
+		550FCFA71A3A8D96005115E1 /* iphone_padding_reference.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 550FCF9B1A3A8D96005115E1 /* iphone_padding_reference.jpg */; };
+		550FCFA81A3A8D96005115E1 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 550FCF9C1A3A8D96005115E1 /* logo.png */; };
+		558CB9301A3D6CF8005B3ADA /* HighScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 558CB92F1A3D6CF8005B3ADA /* HighScoreViewController.m */; };
+		558CB9321A3D6EAF005B3ADA /* HighScoreView~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 558CB9311A3D6EAF005B3ADA /* HighScoreView~iphone.xib */; };
+		558FC6771A3FC66D00172B25 /* ColourMemoryUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 558FC6761A3FC66D00172B25 /* ColourMemoryUtilities.m */; };
+		55A21AC91A3F62A500E5242F /* HighScoreTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A21AC81A3F62A500E5242F /* HighScoreTableViewCell.m */; };
+		55A21ACD1A3F6A1700E5242F /* HighScoreTableViewCell~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55A21ACC1A3F6A1700E5242F /* HighScoreTableViewCell~iphone.xib */; };
+		55A6ABCF1A3F714800E592A5 /* HighScore.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A6ABCE1A3F714800E592A5 /* HighScore.m */; };
+		55A6ABD41A3F722800E592A5 /* PersistenceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A6ABD31A3F722800E592A5 /* PersistenceManager.m */; };
+		55A6ABD71A3F77A300E592A5 /* GameBoardCardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A6ABD61A3F77A300E592A5 /* GameBoardCardCell.m */; };
+		55A6ABDA1A3FA79B00E592A5 /* CardColourManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A6ABD91A3FA79B00E592A5 /* CardColourManager.m */; };
+		55B63B3F1A40CF750032DDA5 /* NameEntryForScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B63B3E1A40CF750032DDA5 /* NameEntryForScoreViewController.m */; };
+		55B63B411A40CF870032DDA5 /* NameEntryForScoreView~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55B63B401A40CF870032DDA5 /* NameEntryForScoreView~iphone.xib */; };
+		55E286931A3A8B2C00CA44AB /* Colour_MemoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E286921A3A8B2C00CA44AB /* Colour_MemoryTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55E2868D1A3A8B2C00CA44AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55E286681A3A8B2C00CA44AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55E2866F1A3A8B2C00CA44AB;
+			remoteInfo = "Colour Memory";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		550FCF7A1A3A8BB7005115E1 /* Colour_Memory.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Colour_Memory.xcdatamodel; sourceTree = "<group>"; };
+		550FCF7B1A3A8BB7005115E1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		550FCF7C1A3A8BB7005115E1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		550FCF7F1A3A8BB7005115E1 /* GameBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameBoardViewController.h; sourceTree = "<group>"; };
+		550FCF801A3A8BB7005115E1 /* GameBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameBoardViewController.m; sourceTree = "<group>"; };
+		550FCF821A3A8BB7005115E1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		550FCF831A3A8BB7005115E1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		550FCF851A3A8BB7005115E1 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		550FCF8E1A3A8C12005115E1 /* Main~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Main~iphone.xib"; sourceTree = "<group>"; };
+		550FCF911A3A8D96005115E1 /* card_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card_bg.png; sourceTree = "<group>"; };
+		550FCF921A3A8D96005115E1 /* colour1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colour1.png; sourceTree = "<group>"; };
+		550FCF931A3A8D96005115E1 /* colour2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colour2.png; sourceTree = "<group>"; };
+		550FCF941A3A8D96005115E1 /* colour3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colour3.png; sourceTree = "<group>"; };
+		550FCF951A3A8D96005115E1 /* colour4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colour4.png; sourceTree = "<group>"; };
+		550FCF961A3A8D96005115E1 /* colour5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colour5.png; sourceTree = "<group>"; };
+		550FCF971A3A8D96005115E1 /* colour6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colour6.png; sourceTree = "<group>"; };
+		550FCF981A3A8D96005115E1 /* colour7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colour7.png; sourceTree = "<group>"; };
+		550FCF991A3A8D96005115E1 /* colour8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colour8.png; sourceTree = "<group>"; };
+		550FCF9A1A3A8D96005115E1 /* icon_57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_57x57.png; sourceTree = "<group>"; };
+		550FCF9B1A3A8D96005115E1 /* iphone_padding_reference.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iphone_padding_reference.jpg; sourceTree = "<group>"; };
+		550FCF9C1A3A8D96005115E1 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		558CB92E1A3D6CF8005B3ADA /* HighScoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighScoreViewController.h; sourceTree = "<group>"; };
+		558CB92F1A3D6CF8005B3ADA /* HighScoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighScoreViewController.m; sourceTree = "<group>"; };
+		558CB9311A3D6EAF005B3ADA /* HighScoreView~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "HighScoreView~iphone.xib"; sourceTree = "<group>"; };
+		558FC6751A3FC66D00172B25 /* ColourMemoryUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColourMemoryUtilities.h; sourceTree = "<group>"; };
+		558FC6761A3FC66D00172B25 /* ColourMemoryUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColourMemoryUtilities.m; sourceTree = "<group>"; };
+		55A21AC71A3F62A500E5242F /* HighScoreTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighScoreTableViewCell.h; sourceTree = "<group>"; };
+		55A21AC81A3F62A500E5242F /* HighScoreTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighScoreTableViewCell.m; sourceTree = "<group>"; };
+		55A21ACC1A3F6A1700E5242F /* HighScoreTableViewCell~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "HighScoreTableViewCell~iphone.xib"; sourceTree = "<group>"; };
+		55A6ABCD1A3F714800E592A5 /* HighScore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighScore.h; sourceTree = "<group>"; };
+		55A6ABCE1A3F714800E592A5 /* HighScore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighScore.m; sourceTree = "<group>"; };
+		55A6ABD21A3F722800E592A5 /* PersistenceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersistenceManager.h; sourceTree = "<group>"; };
+		55A6ABD31A3F722800E592A5 /* PersistenceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersistenceManager.m; sourceTree = "<group>"; };
+		55A6ABD51A3F77A300E592A5 /* GameBoardCardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameBoardCardCell.h; sourceTree = "<group>"; };
+		55A6ABD61A3F77A300E592A5 /* GameBoardCardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameBoardCardCell.m; sourceTree = "<group>"; };
+		55A6ABD81A3FA79B00E592A5 /* CardColourManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardColourManager.h; sourceTree = "<group>"; };
+		55A6ABD91A3FA79B00E592A5 /* CardColourManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardColourManager.m; sourceTree = "<group>"; };
+		55B63B3D1A40CF750032DDA5 /* NameEntryForScoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NameEntryForScoreViewController.h; sourceTree = "<group>"; };
+		55B63B3E1A40CF750032DDA5 /* NameEntryForScoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NameEntryForScoreViewController.m; sourceTree = "<group>"; };
+		55B63B401A40CF870032DDA5 /* NameEntryForScoreView~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "NameEntryForScoreView~iphone.xib"; sourceTree = "<group>"; };
+		55B63B421A4113BA0032DDA5 /* ColourMemory.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColourMemory.pch; sourceTree = "<group>"; };
+		55E286701A3A8B2C00CA44AB /* Colour Memory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Colour Memory.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E2868C1A3A8B2C00CA44AB /* Colour MemoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Colour MemoryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E286911A3A8B2C00CA44AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55E286921A3A8B2C00CA44AB /* Colour_MemoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Colour_MemoryTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55E2866D1A3A8B2C00CA44AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E286891A3A8B2C00CA44AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		550FCF741A3A8BB7005115E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				550FCF791A3A8BB7005115E1 /* Colour_Memory.xcdatamodeld */,
+				550FCF901A3A8D78005115E1 /* Images */,
+				550FCF7B1A3A8BB7005115E1 /* Images.xcassets */,
+				550FCF7C1A3A8BB7005115E1 /* Info.plist */,
+				550FCF8E1A3A8C12005115E1 /* Main~iphone.xib */,
+				558CB9311A3D6EAF005B3ADA /* HighScoreView~iphone.xib */,
+				55A21ACC1A3F6A1700E5242F /* HighScoreTableViewCell~iphone.xib */,
+				55B63B401A40CF870032DDA5 /* NameEntryForScoreView~iphone.xib */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		550FCF7D1A3A8BB7005115E1 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				550FCF7E1A3A8BB7005115E1 /* Controllers */,
+				550FCF811A3A8BB7005115E1 /* Delegates */,
+				55A6ABD11A3F71FD00E592A5 /* Managers */,
+				55A6ABD01A3F715000E592A5 /* Model */,
+				550FCF841A3A8BB7005115E1 /* Others */,
+				55A21AC51A3F625900E5242F /* UI */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		550FCF7E1A3A8BB7005115E1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				550FCF7F1A3A8BB7005115E1 /* GameBoardViewController.h */,
+				550FCF801A3A8BB7005115E1 /* GameBoardViewController.m */,
+				558CB92E1A3D6CF8005B3ADA /* HighScoreViewController.h */,
+				558CB92F1A3D6CF8005B3ADA /* HighScoreViewController.m */,
+				55B63B3D1A40CF750032DDA5 /* NameEntryForScoreViewController.h */,
+				55B63B3E1A40CF750032DDA5 /* NameEntryForScoreViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		550FCF811A3A8BB7005115E1 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				550FCF821A3A8BB7005115E1 /* AppDelegate.h */,
+				550FCF831A3A8BB7005115E1 /* AppDelegate.m */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		550FCF841A3A8BB7005115E1 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				55B63B421A4113BA0032DDA5 /* ColourMemory.pch */,
+				558FC6751A3FC66D00172B25 /* ColourMemoryUtilities.h */,
+				558FC6761A3FC66D00172B25 /* ColourMemoryUtilities.m */,
+				550FCF851A3A8BB7005115E1 /* main.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		550FCF901A3A8D78005115E1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				550FCF911A3A8D96005115E1 /* card_bg.png */,
+				550FCF921A3A8D96005115E1 /* colour1.png */,
+				550FCF931A3A8D96005115E1 /* colour2.png */,
+				550FCF941A3A8D96005115E1 /* colour3.png */,
+				550FCF951A3A8D96005115E1 /* colour4.png */,
+				550FCF961A3A8D96005115E1 /* colour5.png */,
+				550FCF971A3A8D96005115E1 /* colour6.png */,
+				550FCF981A3A8D96005115E1 /* colour7.png */,
+				550FCF991A3A8D96005115E1 /* colour8.png */,
+				550FCF9A1A3A8D96005115E1 /* icon_57x57.png */,
+				550FCF9B1A3A8D96005115E1 /* iphone_padding_reference.jpg */,
+				550FCF9C1A3A8D96005115E1 /* logo.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		55A21AC51A3F625900E5242F /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				55A21AC61A3F626600E5242F /* Cells */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		55A21AC61A3F626600E5242F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				55A6ABD51A3F77A300E592A5 /* GameBoardCardCell.h */,
+				55A6ABD61A3F77A300E592A5 /* GameBoardCardCell.m */,
+				55A21AC71A3F62A500E5242F /* HighScoreTableViewCell.h */,
+				55A21AC81A3F62A500E5242F /* HighScoreTableViewCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		55A6ABD01A3F715000E592A5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				55A6ABCD1A3F714800E592A5 /* HighScore.h */,
+				55A6ABCE1A3F714800E592A5 /* HighScore.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		55A6ABD11A3F71FD00E592A5 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				55A6ABD81A3FA79B00E592A5 /* CardColourManager.h */,
+				55A6ABD91A3FA79B00E592A5 /* CardColourManager.m */,
+				55A6ABD21A3F722800E592A5 /* PersistenceManager.h */,
+				55A6ABD31A3F722800E592A5 /* PersistenceManager.m */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		55E286671A3A8B2C00CA44AB = {
+			isa = PBXGroup;
+			children = (
+				55E286721A3A8B2C00CA44AB /* Colour Memory */,
+				55E2868F1A3A8B2C00CA44AB /* Colour MemoryTests */,
+				55E286711A3A8B2C00CA44AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55E286711A3A8B2C00CA44AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55E286701A3A8B2C00CA44AB /* Colour Memory.app */,
+				55E2868C1A3A8B2C00CA44AB /* Colour MemoryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55E286721A3A8B2C00CA44AB /* Colour Memory */ = {
+			isa = PBXGroup;
+			children = (
+				550FCF741A3A8BB7005115E1 /* Resources */,
+				550FCF7D1A3A8BB7005115E1 /* Sources */,
+			);
+			path = "Colour Memory";
+			sourceTree = "<group>";
+		};
+		55E2868F1A3A8B2C00CA44AB /* Colour MemoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				55E286921A3A8B2C00CA44AB /* Colour_MemoryTests.m */,
+				55E286901A3A8B2C00CA44AB /* Supporting Files */,
+			);
+			path = "Colour MemoryTests";
+			sourceTree = "<group>";
+		};
+		55E286901A3A8B2C00CA44AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55E286911A3A8B2C00CA44AB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55E2866F1A3A8B2C00CA44AB /* Colour Memory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55E286961A3A8B2C00CA44AB /* Build configuration list for PBXNativeTarget "Colour Memory" */;
+			buildPhases = (
+				55E2866C1A3A8B2C00CA44AB /* Sources */,
+				55E2866D1A3A8B2C00CA44AB /* Frameworks */,
+				55E2866E1A3A8B2C00CA44AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Colour Memory";
+			productName = "Colour Memory";
+			productReference = 55E286701A3A8B2C00CA44AB /* Colour Memory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55E2868B1A3A8B2C00CA44AB /* Colour MemoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55E286991A3A8B2C00CA44AB /* Build configuration list for PBXNativeTarget "Colour MemoryTests" */;
+			buildPhases = (
+				55E286881A3A8B2C00CA44AB /* Sources */,
+				55E286891A3A8B2C00CA44AB /* Frameworks */,
+				55E2868A1A3A8B2C00CA44AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55E2868E1A3A8B2C00CA44AB /* PBXTargetDependency */,
+			);
+			name = "Colour MemoryTests";
+			productName = "Colour MemoryTests";
+			productReference = 55E2868C1A3A8B2C00CA44AB /* Colour MemoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55E286681A3A8B2C00CA44AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Eric E. van Leeuwen";
+				TargetAttributes = {
+					55E2866F1A3A8B2C00CA44AB = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					55E2868B1A3A8B2C00CA44AB = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 55E2866F1A3A8B2C00CA44AB;
+					};
+				};
+			};
+			buildConfigurationList = 55E2866B1A3A8B2C00CA44AB /* Build configuration list for PBXProject "Colour Memory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55E286671A3A8B2C00CA44AB;
+			productRefGroup = 55E286711A3A8B2C00CA44AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55E2866F1A3A8B2C00CA44AB /* Colour Memory */,
+				55E2868B1A3A8B2C00CA44AB /* Colour MemoryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55E2866E1A3A8B2C00CA44AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550FCFA31A3A8D96005115E1 /* colour6.png in Resources */,
+				550FCF891A3A8BB7005115E1 /* Images.xcassets in Resources */,
+				550FCF9D1A3A8D96005115E1 /* card_bg.png in Resources */,
+				558CB9321A3D6EAF005B3ADA /* HighScoreView~iphone.xib in Resources */,
+				550FCFA41A3A8D96005115E1 /* colour7.png in Resources */,
+				550FCFA81A3A8D96005115E1 /* logo.png in Resources */,
+				55A21ACD1A3F6A1700E5242F /* HighScoreTableViewCell~iphone.xib in Resources */,
+				550FCFA71A3A8D96005115E1 /* iphone_padding_reference.jpg in Resources */,
+				550FCFA11A3A8D96005115E1 /* colour4.png in Resources */,
+				550FCF8F1A3A8C12005115E1 /* Main~iphone.xib in Resources */,
+				550FCFA01A3A8D96005115E1 /* colour3.png in Resources */,
+				550FCF9F1A3A8D96005115E1 /* colour2.png in Resources */,
+				550FCFA51A3A8D96005115E1 /* colour8.png in Resources */,
+				550FCFA61A3A8D96005115E1 /* icon_57x57.png in Resources */,
+				55B63B411A40CF870032DDA5 /* NameEntryForScoreView~iphone.xib in Resources */,
+				550FCF9E1A3A8D96005115E1 /* colour1.png in Resources */,
+				550FCFA21A3A8D96005115E1 /* colour5.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E2868A1A3A8B2C00CA44AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55E2866C1A3A8B2C00CA44AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550FCF8B1A3A8BB7005115E1 /* GameBoardViewController.m in Sources */,
+				558CB9301A3D6CF8005B3ADA /* HighScoreViewController.m in Sources */,
+				55A6ABD71A3F77A300E592A5 /* GameBoardCardCell.m in Sources */,
+				55A21AC91A3F62A500E5242F /* HighScoreTableViewCell.m in Sources */,
+				550FCF881A3A8BB7005115E1 /* Colour_Memory.xcdatamodeld in Sources */,
+				550FCF8D1A3A8BB7005115E1 /* main.m in Sources */,
+				55A6ABCF1A3F714800E592A5 /* HighScore.m in Sources */,
+				55B63B3F1A40CF750032DDA5 /* NameEntryForScoreViewController.m in Sources */,
+				55A6ABDA1A3FA79B00E592A5 /* CardColourManager.m in Sources */,
+				550FCF8C1A3A8BB7005115E1 /* AppDelegate.m in Sources */,
+				55A6ABD41A3F722800E592A5 /* PersistenceManager.m in Sources */,
+				558FC6771A3FC66D00172B25 /* ColourMemoryUtilities.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E286881A3A8B2C00CA44AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E286931A3A8B2C00CA44AB /* Colour_MemoryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55E2868E1A3A8B2C00CA44AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55E2866F1A3A8B2C00CA44AB /* Colour Memory */;
+			targetProxy = 55E2868D1A3A8B2C00CA44AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		55E286941A3A8B2C00CA44AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Colour Memory/Sources/Others/ColourMemory.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55E286951A3A8B2C00CA44AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Colour Memory/Sources/Others/ColourMemory.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55E286971A3A8B2C00CA44AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "$(SRCROOT)/$(TARGET_NAME)/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		55E286981A3A8B2C00CA44AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "$(SRCROOT)/$(TARGET_NAME)/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		55E2869A1A3A8B2C00CA44AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Colour MemoryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Colour Memory.app/Colour Memory";
+			};
+			name = Debug;
+		};
+		55E2869B1A3A8B2C00CA44AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Colour MemoryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Colour Memory.app/Colour Memory";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55E2866B1A3A8B2C00CA44AB /* Build configuration list for PBXProject "Colour Memory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E286941A3A8B2C00CA44AB /* Debug */,
+				55E286951A3A8B2C00CA44AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55E286961A3A8B2C00CA44AB /* Build configuration list for PBXNativeTarget "Colour Memory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E286971A3A8B2C00CA44AB /* Debug */,
+				55E286981A3A8B2C00CA44AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55E286991A3A8B2C00CA44AB /* Build configuration list for PBXNativeTarget "Colour MemoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E2869A1A3A8B2C00CA44AB /* Debug */,
+				55E2869B1A3A8B2C00CA44AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		550FCF791A3A8BB7005115E1 /* Colour_Memory.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				550FCF7A1A3A8BB7005115E1 /* Colour_Memory.xcdatamodel */,
+			);
+			currentVersion = 550FCF7A1A3A8BB7005115E1 /* Colour_Memory.xcdatamodel */;
+			path = Colour_Memory.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 55E286681A3A8B2C00CA44AB /* Project object */;
+}
